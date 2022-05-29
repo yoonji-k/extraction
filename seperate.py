@@ -1,7 +1,5 @@
 import glob
 import os
-import pandas as pd
-
 
 for filename in glob.glob("valid__malware/*.csv"):
     with open(os.path.join(os.getcwd(), filename), 'r') as f:
